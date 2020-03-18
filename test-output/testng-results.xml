@@ -2,112 +2,112 @@
 <testng-results total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-18T07:36:44Z" name="Default suite" finished-at="2020-03-18T07:37:11Z" duration-ms="27535">
+  <suite started-at="2020-03-18T09:00:56Z" name="Default suite" finished-at="2020-03-18T09:01:27Z" duration-ms="31038">
     <groups>
     </groups>
-    <test started-at="2020-03-18T07:36:44Z" name="Default test" finished-at="2020-03-18T07:37:11Z" duration-ms="27535">
+    <test started-at="2020-03-18T09:00:56Z" name="Default test" finished-at="2020-03-18T09:01:27Z" duration-ms="31038">
       <class name="HomeWorkMar15.automationPracticeTestNG">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:44Z" name="beforeTest" finished-at="2020-03-18T03:36:55Z" duration-ms="11188" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:00:56Z" name="beforeTest" finished-at="2020-03-18T05:01:08Z" duration-ms="11893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:55Z" name="beforeMethod" finished-at="2020-03-18T03:36:56Z" duration-ms="500" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:08Z" name="beforeMethod" finished-at="2020-03-18T05:01:08Z" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateSpecials()[pri:1, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:56Z" name="validateSpecials" finished-at="2020-03-18T03:36:56Z" duration-ms="735" status="PASS">
+        <test-method signature="validateSpecials()[pri:1, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:08Z" name="validateSpecials" finished-at="2020-03-18T05:01:09Z" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpecials -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:56Z" name="afterMethod" finished-at="2020-03-18T03:36:57Z" duration-ms="617" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:09Z" name="afterMethod" finished-at="2020-03-18T05:01:10Z" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:57Z" name="beforeMethod" finished-at="2020-03-18T03:36:57Z" duration-ms="500" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:10Z" name="beforeMethod" finished-at="2020-03-18T05:01:10Z" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateNewProducts()[pri:2, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:57Z" name="validateNewProducts" finished-at="2020-03-18T03:36:58Z" duration-ms="650" status="PASS">
+        <test-method signature="validateNewProducts()[pri:2, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:10Z" name="validateNewProducts" finished-at="2020-03-18T05:01:11Z" duration-ms="1241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNewProducts -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:58Z" name="afterMethod" finished-at="2020-03-18T03:36:59Z" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:11Z" name="afterMethod" finished-at="2020-03-18T05:01:12Z" duration-ms="633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:59Z" name="beforeMethod" finished-at="2020-03-18T03:36:59Z" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:12Z" name="beforeMethod" finished-at="2020-03-18T05:01:13Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateBestSellers()[pri:3, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:36:59Z" name="validateBestSellers" finished-at="2020-03-18T03:37:00Z" duration-ms="772" status="PASS">
+        <test-method signature="validateBestSellers()[pri:3, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:13Z" name="validateBestSellers" finished-at="2020-03-18T05:01:14Z" duration-ms="1779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBestSellers -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:00Z" name="afterMethod" finished-at="2020-03-18T03:37:01Z" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:14Z" name="afterMethod" finished-at="2020-03-18T05:01:15Z" duration-ms="629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:01Z" name="beforeMethod" finished-at="2020-03-18T03:37:01Z" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:15Z" name="beforeMethod" finished-at="2020-03-18T05:01:15Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateOurStores()[pri:4, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:01Z" name="validateOurStores" finished-at="2020-03-18T03:37:02Z" duration-ms="1215" status="PASS">
+        <test-method signature="validateOurStores()[pri:4, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:15Z" name="validateOurStores" finished-at="2020-03-18T05:01:17Z" duration-ms="1631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateOurStores -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:02Z" name="afterMethod" finished-at="2020-03-18T03:37:03Z" duration-ms="631" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:17Z" name="afterMethod" finished-at="2020-03-18T05:01:18Z" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:03Z" name="beforeMethod" finished-at="2020-03-18T03:37:03Z" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:18Z" name="beforeMethod" finished-at="2020-03-18T05:01:18Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateContactUs()[pri:5, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:03Z" name="validateContactUs" finished-at="2020-03-18T03:37:05Z" duration-ms="1325" status="PASS">
+        <test-method signature="validateContactUs()[pri:5, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:18Z" name="validateContactUs" finished-at="2020-03-18T05:01:19Z" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:05Z" name="afterMethod" finished-at="2020-03-18T03:37:05Z" duration-ms="618" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:19Z" name="afterMethod" finished-at="2020-03-18T05:01:20Z" duration-ms="630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:05Z" name="beforeMethod" finished-at="2020-03-18T03:37:06Z" duration-ms="500" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:20Z" name="beforeMethod" finished-at="2020-03-18T05:01:20Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateTermsAndConditions()[pri:6, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:06Z" name="validateTermsAndConditions" finished-at="2020-03-18T03:37:06Z" duration-ms="552" status="PASS">
+        <test-method signature="validateTermsAndConditions()[pri:6, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:20Z" name="validateTermsAndConditions" finished-at="2020-03-18T05:01:21Z" duration-ms="1113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTermsAndConditions -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:06Z" name="afterMethod" finished-at="2020-03-18T03:37:07Z" duration-ms="621" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:21Z" name="afterMethod" finished-at="2020-03-18T05:01:22Z" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:07Z" name="beforeMethod" finished-at="2020-03-18T03:37:08Z" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:22Z" name="beforeMethod" finished-at="2020-03-18T05:01:22Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateAboutUs()[pri:7, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:08Z" name="validateAboutUs" finished-at="2020-03-18T03:37:08Z" duration-ms="587" status="PASS">
+        <test-method signature="validateAboutUs()[pri:7, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:22Z" name="validateAboutUs" finished-at="2020-03-18T05:01:23Z" duration-ms="828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAboutUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:08Z" name="afterMethod" finished-at="2020-03-18T03:37:09Z" duration-ms="619" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:23Z" name="afterMethod" finished-at="2020-03-18T05:01:24Z" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:09Z" name="beforeMethod" finished-at="2020-03-18T03:37:09Z" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:24Z" name="beforeMethod" finished-at="2020-03-18T05:01:24Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateSiteMap()[pri:8, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:09Z" name="validateSiteMap" finished-at="2020-03-18T03:37:10Z" duration-ms="640" status="PASS">
+        <test-method signature="validateSiteMap()[pri:8, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:24Z" name="validateSiteMap" finished-at="2020-03-18T05:01:25Z" duration-ms="812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSiteMap -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:10Z" name="afterMethod" finished-at="2020-03-18T03:37:11Z" duration-ms="626" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:25Z" name="afterMethod" finished-at="2020-03-18T05:01:26Z" duration-ms="629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T03:37:11Z" name="afterTest" finished-at="2020-03-18T03:37:11Z" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:HomeWorkMar15.automationPracticeTestNG@2fb3536e]" started-at="2020-03-18T05:01:26Z" name="afterTest" finished-at="2020-03-18T05:01:27Z" duration-ms="918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
