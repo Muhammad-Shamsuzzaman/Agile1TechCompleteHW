@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HomeWork_March22]">
+  <test name="pageNewTours_hwA(failed)">
+    <classes>
+      <class name="HomeWorkMar22.phpTravels_hwB">
+        <methods>
+          <include name="validateSignUp"/>
+          <include name="validateLastName"/>
+          <include name="validatePhone"/>
+          <include name="validateConfirmPassword"/>
+          <include name="validateFirstName"/>
+          <include name="beforeTest"/>
+          <include name="validateEmail"/>
+          <include name="validateTitle"/>
+          <include name="validateUrl"/>
+          <include name="validatePassword"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.phpTravels_hwB -->
+      <class name="HomeWorkMar22.yahooAccount_hwC">
+        <methods>
+          <include name="validateLastName"/>
+          <include name="validateDate"/>
+          <include name="validateTerms"/>
+          <include name="validateContinueButton"/>
+          <include name="validateSignIn"/>
+          <include name="validateYear"/>
+          <include name="validateFirstName"/>
+          <include name="validatePhone"/>
+          <include name="validateGender"/>
+          <include name="validatePassword"/>
+          <include name="validateId"/>
+          <include name="validateMonth"/>
+          <include name="validatePrivacyPolicy"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.yahooAccount_hwC -->
+      <class name="HomeWorkMar22.automationPractice_hwD">
+        <methods>
+          <include name="validateCompany"/>
+          <include name="validateSpecials"/>
+          <include name="validateCity"/>
+          <include name="validateFirstName"/>
+          <include name="validateDate"/>
+          <include name="valdateZipCode"/>
+          <include name="validateCreateAccount"/>
+          <include name="validateRegister"/>
+          <include name="validateYear"/>
+          <include name="valdateState"/>
+          <include name="validateUrl"/>
+          <include name="beforeTest"/>
+          <include name="validateTitleMr"/>
+          <include name="validateTitle"/>
+          <include name="validateAddress"/>
+          <include name="validateMonth"/>
+          <include name="validateHomePhone"/>
+          <include name="validatePassword"/>
+          <include name="validateSpecialOffers"/>
+          <include name="validateAdditionalInformation"/>
+          <include name="validateAlias"/>
+          <include name="validateLastName"/>
+          <include name="validateMobilePhone"/>
+          <include name="validateNewsLetter"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.automationPractice_hwD -->
+      <class name="HomeWorkMar22.pageNewTours_hwA">
+        <methods>
+          <include name="validatePassword"/>
+          <include name="validateSubmit"/>
+          <include name="validateAddress"/>
+          <include name="validateConfirmPassword"/>
+          <include name="validatePhone"/>
+          <include name="validateUserName"/>
+          <include name="beforeTest"/>
+          <include name="validatePostalCode"/>
+          <include name="validateTitle"/>
+          <include name="validateUrl"/>
+          <include name="validateFirstName"/>
+          <include name="validateCity"/>
+          <include name="validateLastName"/>
+          <include name="validateState"/>
+          <include name="validateEmail"/>
+        </methods>
+      </class> <!-- HomeWorkMar22.pageNewTours_hwA -->
+    </classes>
+  </test> <!-- pageNewTours_hwA(failed) -->
+</suite> <!-- Failed suite [HomeWork_March22] -->

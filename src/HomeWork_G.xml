@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "data driver framework" parallel = "tests">
+
+<test name = "page new tours sign up">
+
+<parameter name = "firstName" value = "Michael"/>
+<parameter name = "lastName" value = "Smith"/>
+<parameter name = "phone" value = "7031234567"/>
+<parameter name = "firstName" value = "Michael"/>
+<parameter name = "email" value = "msmith12@gmail.com"/>
+<parameter name = "address" value = "10400 Eaton Pl, Suite 105"/>
+<parameter name = "city" value = "Fairfax"/>
+<parameter name = "state" value = "Virginia"/>
+<parameter name = "zipCode" value = "22030"/>
+<parameter name = "userName" value = "msmith123"/>
+<parameter name = "password" value = "Abcd@1234"/>
+<parameter name = "confirmPassword" value = "Abcd@1234"/>
+<parameter name = "expectedtitle" value = "Register: Mercury Tours"/>
+<parameter name = "expectedurl" value = "http://newtours.demoaut.com/mercuryregister.php"/>
+
+<classes>
+
+<class name = "HomeWorkMar22.pageNewTours_hwG">
+
+</class>
+
+</classes>
+
+
+
+</test>
+
+<test name = "php Travels Sign Up">
+
+<parameter name = "firstName" value = "Tommy"/>
+<parameter name = "lastName" value = "Lee"/>
+<parameter name = "phone" value = "7031234567"/>
+<parameter name = "email" value = "tommylee1998@gmail.com"/>
+<parameter name = "password" value = "LeeToomy2"/>
+<parameter name = "confirmPassword" value = "LeeToomy2"/>
+<parameter name = "expectedText" value = "SIGN UP"/>
+<parameter name = "expectedTitle" value = "Register"/>
+<parameter name = "expectedUrl" value = "https://www.phptravels.net/register"/>
+
+<classes>
+
+<class name = "HomeWorkMar22.phpTravels_hwG">
+
+</class>
+
+</classes>
+
+
+
+
+
+</test>
+</suite>

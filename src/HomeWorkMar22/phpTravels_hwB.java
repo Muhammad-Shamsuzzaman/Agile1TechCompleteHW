@@ -95,9 +95,9 @@ import pageObjectModel.phpTravels;
 		String actualText = signup.getText();
 		Reporter.log("Verifying Text of the WebElement signup", true);
 		
-		String expectedTest = "SIGN UP";
+		String expectedText = "SIGN UP";
 		
-		Assert.assertEquals(expectedTest, actualText);
+		Assert.assertEquals(expectedText, actualText);
 	}
 	
 		@Test(priority =8)
