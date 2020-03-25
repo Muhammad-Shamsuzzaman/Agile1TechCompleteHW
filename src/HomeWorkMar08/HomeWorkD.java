@@ -23,7 +23,9 @@ public class HomeWorkD {
 		
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.linkText("Specials")).click();
+		driver.findElement(By.id("email_create")).sendKeys("rokydeg8@yahoo.com");
+		
+		/*driver.findElement(By.linkText("Specials")).click();
 		
 		String title1 = driver.getTitle();
 		
@@ -151,7 +153,7 @@ public class HomeWorkD {
 		
 		Thread.sleep(5000);
 		
-		driver.close();
+		driver.close();*/
 		
 	
 

@@ -77,5 +77,33 @@ public WebElement getYear() {
 		return gender;
 	}
 	
+	public WebElement validateTerms() {
+		
+		WebElement terms = driver.findElement(By.linkText("Terms"));
+		
+		return terms;
+	}
+	
+	public WebElement validatePrivacyPolicy() {
+		
+		WebElement privacyPolicy = driver.findElement(By.linkText("Privacy Policy"));
+		
+		return privacyPolicy;
+		
+	}
+	
+	public WebElement validateContinueButton() {
+		
+		WebElement continueButton = driver.findElement(By.id("reg-submit-button"));
+		
+		return continueButton;
+	}
+	
+	public WebElement validateSignIn() {
+		
+		WebElement signIn = driver.findElement(By.linkText("Sign in"));
+		
+		return signIn;
+	}
 
 }

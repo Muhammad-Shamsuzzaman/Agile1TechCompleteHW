@@ -86,25 +86,29 @@ public class phpTravelsTestNG {
 		
 		WebElement signup = pt.verifySignUP();
 		
-		String text = signup.getText();
+		String actualText = signup.getText();
 		
-		Assert.assertEquals("SIGN UP", text);
+		String expectedTest = "SIGN UP";
+		
+		Assert.assertEquals(expectedTest, actualText);
 	}
 	
 	@Test(priority =8)
 	public void validateTitle(){
 		
-		String title = driver.getTitle();
-		Assert.assertEquals(title, "Register");
+		String actualTitle = driver.getTitle();
+		String expectedlTitle = "Register";
+		Assert.assertEquals(expectedlTitle, actualTitle);
 		
 	}
 	
 	@Test(priority =9)
 	public void validateUrl() {
 		
-		String url = driver.getCurrentUrl();
+		String actualUrl = driver.getCurrentUrl();
+		String expectedUrl = "https://www.phptravels.net/register";
 	     
-	     Assert.assertEquals(url,"https://www.phptravels.net/register");
+	     Assert.assertEquals(actualUrl,expectedUrl);
 		
 	}
 	

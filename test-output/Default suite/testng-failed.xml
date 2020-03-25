@@ -6,8 +6,8 @@
       <class name="HomeWorkMar15.automationPracticeTestNG">
         <methods>
           <include name="beforeTest"/>
-          <include name="validateSpecials"/>
-          <include name="validateNewProducts"/>
+          <include name="validateTitle"/>
+          <include name="afterTest"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- HomeWorkMar15.automationPracticeTestNG -->

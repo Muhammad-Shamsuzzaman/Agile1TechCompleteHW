@@ -13,61 +13,162 @@ public class automationPractice {
 		driver = dr;
 	}
 	
-	public WebElement getSpcials() {
+	public WebElement getEmailAddress() {
 		
-		WebElement specials = driver.findElement(By.linkText("Specials"));
+		WebElement emailAddress = driver.findElement(By.id("email_create"));
 		
-		return specials;
+		return emailAddress;
 	}
 	
-	public WebElement getNewProducts() {
+	public WebElement validateCreateAccount() {
 		
-		WebElement newProducts = driver.findElement(By.linkText("New products"));
+		WebElement createAccount = driver.findElement(By.xpath("//*[@id=\"SubmitCreate\"]/span"));
 		
-		return newProducts;
+		return createAccount;
 	}
 	
-	public WebElement getBestSellers() {
+	public WebElement validateTitleMr() {
 		
-		WebElement bestSellers = driver.findElement(By.linkText("Best sellers"));
+		WebElement mr = driver.findElement(By.id("id_gender1"));
 		
-		return bestSellers;
+		return mr;
+		
+		
 	}
 	
-	public WebElement getOurStores() {
+	public WebElement validateTitleMrs() {
 		
-		WebElement ourStores = driver.findElement(By.linkText("Our stores"));
+		WebElement mrs = driver.findElement(By.id("id_gender2"));
 		
-		return ourStores;
+		return mrs;
+		
+		
 	}
 	
-	public WebElement getContactUs() {
+	public WebElement validateFirstName() {
 		
-		WebElement contactUs = driver.findElement(By.linkText("Contact us"));
+		WebElement firstName = driver.findElement(By.id("customer_firstname"));
 		
-		return contactUs;
+		return firstName;
 	}
 	
-	public WebElement getTermsAndConditions() {
+	public WebElement validateLastName() {
 		
-		WebElement termsConditions = driver.findElement(By.linkText("Terms and conditions of use"));
+		WebElement lastName = driver.findElement(By.id("customer_lastname"));
 		
-		return termsConditions;
+		return lastName;
 	}
 	
-	public WebElement getAboutUs() {
+	public WebElement validatePassword() {
 		
-		WebElement aboutUs = driver.findElement(By.linkText("About us"));
+		WebElement password= driver.findElement(By.id("passwd"));
 		
-		return aboutUs;
+		return password;
 	}
 	
-	public WebElement getSiteMap() {
+	public WebElement getDate() {
 		
-		WebElement siteMap = driver.findElement(By.linkText("Sitemap"));
+		WebElement date = driver.findElement(By.id("days"));
 		
-		return siteMap;
+		return date;
 	}
 	
+	public WebElement getMonth() {
+		
+		WebElement month = driver.findElement(By.name("months"));
+		
+		return month;
+	}
+	
+	public WebElement getYear() {
+		
+		WebElement year = driver.findElement(By.name("years"));
+		
+		return year;
+	}
+	
+	public WebElement validateNewsLetter() {
+		
+		WebElement newsLetter = driver.findElement(By.id("newsletter"));
+		
+		return newsLetter;
+	}
+	
+	public WebElement validateSpecialOffers() {
+		
+		WebElement specialOffers = driver.findElement(By.id("optin"));
+		
+		return specialOffers;
+	}
+	
+	public WebElement validateCompany() {
+		
+		WebElement company = driver.findElement(By.id("company"));
+		
+		return company;
+	}
+	
+	public WebElement validateAddress() {
+		
+		WebElement address = driver.findElement(By.id("address1"));
+		
+		return address;
+	}
+	
+	public WebElement validateCity() {
+		
+		WebElement city = driver.findElement(By.id("city"));
+		
+		return city;
+	}
+	
+	public WebElement validateState() {
+		
+		WebElement state = driver.findElement(By.id("id_state"));
+		
+		return state;
+	}
+	
+	public WebElement validateZipCode() {
+		
+		WebElement zipCode = driver.findElement(By.id("postcode"));
+		
+		return zipCode;
+	}
+	
+	public WebElement validateAdditionalInformation() {
+		
+		WebElement additionalInformation = driver.findElement(By.id("other"));
+		
+		return additionalInformation;
+	}
+	
+	public WebElement validateHomePhone() {
+		
+		WebElement homePhone = driver.findElement(By.id("phone"));
+		
+		return homePhone;
+	}
+	
+	public WebElement validateMobilePhone() {
+		
+		WebElement mobilePhone = driver.findElement(By.id("phone_mobile"));
+		
+		return mobilePhone;
+	}
+	
+	public WebElement validateAlias() {
+		
+		WebElement alias = driver.findElement(By.id("alias"));
+		
+		return alias;
+	}
+	
+	public WebElement validateRegister() {
+		
+		WebElement register = driver.findElement(By.id("submitAccount"));
+		
+		return register;
+	}
 
 }

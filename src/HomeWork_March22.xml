@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "HomeWork_March22">
+<test name = "pageNewTours_hwA">
+
+<classes>
+
+<class name = "HomeWorkMar22.pageNewTours_hwA" ></class>
+
+<class name = "HomeWorkMar22.phpTravels_hwB" ></class>
+
+<class name = "HomeWorkMar22.yahooAccount_hwC" ></class>
+
+<class name = "HomeWorkMar22.automationPractice_hwD" ></class>
+
+</classes>
+
+</test>
+
+
+
+
+
+
+</suite>
