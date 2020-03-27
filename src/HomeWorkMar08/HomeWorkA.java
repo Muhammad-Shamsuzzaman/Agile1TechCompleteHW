@@ -48,13 +48,14 @@ public class HomeWorkA {
 		
 		WebElement submit = driver.findElement(By.name("register"));
 		
-		boolean x =  submit.isEnabled();
 		
-		boolean y =  submit.isDisplayed();
+		boolean enable =  submit.isEnabled();
 		
-		 System.out.println("Submit button is enabled = " + x);
+		boolean display =  submit.isDisplayed();
+		
+		 System.out.println("Submit button is enabled = " + enable);
 		 
-	     System.out.println("Submit button is displayed = " + y);
+	     System.out.println("Submit button is displayed = " + display);
 		
 	     String title = driver.getTitle();
 	     String url = driver.getCurrentUrl();

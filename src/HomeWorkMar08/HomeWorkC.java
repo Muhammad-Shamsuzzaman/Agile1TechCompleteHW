@@ -37,11 +37,12 @@ public class HomeWorkC {
 		
 		WebElement month = driver.findElement(By.name("mm"));
 		//Important
-		Select monthmm = new Select(month);
+		Select mm = new Select(month);
 		
-		monthmm.selectByVisibleText("February");
+		mm.selectByVisibleText("February");
 		
 		driver.findElement(By.name("dd")).sendKeys("01");
+		
 		
 		driver.findElement(By.name("yyyy")).sendKeys("1995");
 		

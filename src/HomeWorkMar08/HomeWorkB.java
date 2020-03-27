@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 
 public class HomeWorkB {
 
@@ -37,7 +38,11 @@ public class HomeWorkB {
 		driver.findElement(By.name("confirmpassword")).sendKeys("Abcd1234");
 		
 		WebElement signup = driver.findElement(By.xpath("/html/body/div[2]/div[1]/section/div/div/div[2]/div/form/div[8]/button"));
-
+		boolean enable = signup.isEnabled();
+		boolean display = signup.isDisplayed();
+		System.out.println("The Sign Up button is enabled: " + enable);
+		System.out.println("The Sign Up button is enabled: " + display);
+		
 		String text = signup.getText();
 		
 		 String title = driver.getTitle();
