@@ -66,7 +66,7 @@ public class HomeWorkA {
 	     
 	     Thread.sleep(5000);
 	     
-	     driver.close();
+	     driver.quit();
 	     
 		
 

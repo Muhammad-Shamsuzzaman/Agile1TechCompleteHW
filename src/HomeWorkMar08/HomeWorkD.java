@@ -153,7 +153,7 @@ public class HomeWorkD {
 		
 		Thread.sleep(5000);
 		
-		driver.close();
+		driver.quit();
 		
 	
 

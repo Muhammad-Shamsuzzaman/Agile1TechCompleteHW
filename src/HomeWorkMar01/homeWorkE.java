@@ -8,7 +8,7 @@ public class homeWorkE {
 		int x = 100;
 		int sum = 0;
 		
-		for (int y = 1; y<=x; y++) {
+		for (int y = 0; y<=x; y++) {
 			
 			sum += y;
 			

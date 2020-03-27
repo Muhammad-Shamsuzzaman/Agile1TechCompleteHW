@@ -50,7 +50,7 @@ public class HomeWorkC {
 		
 		Thread.sleep(5000);
 		
-		driver.close();
+		driver.quit();
 
 
 
