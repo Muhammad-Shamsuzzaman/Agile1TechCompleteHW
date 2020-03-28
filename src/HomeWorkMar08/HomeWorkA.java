@@ -24,7 +24,7 @@ public class HomeWorkA {
 		
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.name("firstName")).sendKeys("Muhammad");
+		driver.findElement(By.xpath("//input[@maxlength = '60']")).sendKeys("Muhammad");
 		
 		driver.findElement(By.name("lastName")).sendKeys("Shamsuzzaman");
 		
@@ -46,7 +46,7 @@ public class HomeWorkA {
 		
 		driver.findElement(By.name("confirmPassword")).sendKeys("Abcd1234");
 		
-		WebElement submit = driver.findElement(By.name("register"));
+		WebElement submit = driver.findElement(By.xpath("//input[@type = 'image']"));
 		
 		
 		boolean enable =  submit.isEnabled();

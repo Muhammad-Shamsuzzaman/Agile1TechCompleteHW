@@ -9,5 +9,16 @@
 	<classpathentry kind="lib" path="C:/Selenium/Selenium 253 &amp; TestNG 6.10/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Selenium 253 &amp; TestNG 6.10/selenium-server-standalone-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Selenium 253 &amp; TestNG 6.10/testng-7.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-html-0.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-reporting-2.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-testng-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Cucumber/mockito-all-1.9.1-20110911.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

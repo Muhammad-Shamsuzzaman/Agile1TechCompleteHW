@@ -37,7 +37,7 @@ public class HomeWorkB {
 		
 		driver.findElement(By.name("confirmpassword")).sendKeys("Abcd1234");
 		
-		WebElement signup = driver.findElement(By.xpath("/html/body/div[2]/div[1]/section/div/div/div[2]/div/form/div[8]/button"));
+		WebElement signup = driver.findElement(By.xpath("//button[@type = 'submit']"));
 		boolean enable = signup.isEnabled();
 		boolean display = signup.isDisplayed();
 		System.out.println("The Sign Up button is enabled: " + enable);
