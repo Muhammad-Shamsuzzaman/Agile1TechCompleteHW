@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GroupTesting]" guice-stage="DEVELOPMENT">
+  <test name="random(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNG.phpTravels_hwB">
+        <methods>
+          <include name="validateConfirmPassword"/>
+          <include name="validateTitle"/>
+          <include name="validateSignUp"/>
+          <include name="validateUrl"/>
+          <include name="validatePassword"/>
+        </methods>
+      </class> <!-- testNG.phpTravels_hwB -->
+    </classes>
+  </test> <!-- random(failed) -->
+</suite> <!-- Failed suite [GroupTesting] -->
