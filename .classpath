@@ -6,9 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Selenium/Selenium 253 &amp; TestNG 6.10/selenium-java-2.53.0.jar"/>
-	<classpathentry kind="lib" path="C:/Selenium/Selenium 253 &amp; TestNG 6.10/selenium-server-standalone-2.53.0.jar"/>
-	<classpathentry kind="lib" path="C:/Selenium/Selenium 253 &amp; TestNG 6.10/testng-7.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cobertura-2.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-core-1.2.4.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Cucumber/cucumber-html-0.2.6.jar"/>
@@ -20,5 +17,8 @@
 	<classpathentry kind="lib" path="C:/Selenium/Cucumber/gherkin-2.12.2.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Cucumber/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Cucumber/mockito-all-1.9.1-20110911.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Selenium 253/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/Selenium 253/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/TestNG/testng-6.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
