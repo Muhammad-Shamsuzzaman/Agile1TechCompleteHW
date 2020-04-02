@@ -5,11 +5,14 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pageObjectModel.newTours;
@@ -19,24 +22,43 @@ public class pageNewTours_hwA {
 	
 	WebDriver driver;
 	
+	
 	newTours nt;
 	
 	@BeforeTest
-	public void beforeTest() throws InterruptedException{
+	@Parameters("browser")
+	public void beforeTest(String browserName) throws InterruptedException{
+		
+		if(browserName.equalsIgnoreCase("firefox")) {
+			System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+			driver = new FirefoxDriver();
+			nt = new newTours(driver);
+		}
+		
+		else if(browserName.equalsIgnoreCase("chrome")){
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		nt = new newTours(driver);
+		}
 		
-		driver.manage().deleteAllCookies();
+		else if(browserName.equalsIgnoreCase("InternetExplorer")) {
+			
+			System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer_Win32_3.150.1\\IEDriverServer.exe");
+			
+			driver = new InternetExplorerDriver();
+			nt = new newTours(driver);
+			
+		}
+		//driver.manage().deleteAllCookies();
 		
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		
 		driver.get("http://newtours.demoaut.com/mercuryregister.php");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
 	
 	}
