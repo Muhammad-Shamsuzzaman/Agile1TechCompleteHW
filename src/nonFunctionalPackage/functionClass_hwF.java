@@ -19,7 +19,7 @@ public class functionClass_hwF {
 		
 	}
 	
-	public static boolean checkEquality(int x, int y) {
+	public boolean checkEquality(int x, int y) {
 		if(x==y){
 			System.out.println("The result for function number 3 is(IF): "+"True");
 			return true;

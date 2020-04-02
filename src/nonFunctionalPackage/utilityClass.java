@@ -13,6 +13,7 @@ public class utilityClass {
 	public double getMonthlyPayment;
 	
 	Scanner SC = new Scanner(System.in);
+
 	
 	public double findInterestRate(){
 		

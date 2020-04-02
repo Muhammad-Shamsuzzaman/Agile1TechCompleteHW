@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name = "HomeWork_March22">
-<test name = "pageNewTours_hwA" parallel = "tests">
+<test name = "pageNewTours_phpTravels_yahooAccount_automationPractice" parallel = "tests">
 
 <classes>
 

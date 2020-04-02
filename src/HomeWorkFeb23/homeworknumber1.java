@@ -13,6 +13,7 @@ public class homeworknumber1 {
 			System.out.println("x+y = " + (x+y));
 			System.out.println("x-y = "+(x-y));
 			System.out.println("The name is: " +name);
+			System.out.println(name+ x+ y);
 
 
 	}

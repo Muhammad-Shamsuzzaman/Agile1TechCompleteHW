@@ -6,23 +6,24 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class HomeWorkA {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer_Win32_3.150.1\\IEDriverServer.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
-		
-		WebDriver driver = new ChromeDriver();
-		
-		driver.manage().deleteAllCookies();
+		//WebDriver driver = new ChromeDriver();
+		WebDriver driver = new InternetExplorerDriver();
+		//driver.manage().deleteAllCookies();
 		
 		driver.get("http://newtours.demoaut.com/mercuryregister.php");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
 		driver.findElement(By.xpath("//input[@maxlength = '60']")).sendKeys("Muhammad");
 		
