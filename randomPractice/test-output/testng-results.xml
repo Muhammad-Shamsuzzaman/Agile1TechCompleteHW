@@ -17,7 +17,7 @@
       <![CDATA[Verifying Url of the page]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-03-29T18:50:52Z" name="GroupTesting" finished-at="2020-03-29T18:51:11Z" duration-ms="19013">
+  <suite started-at="2020-03-31T05:17:44Z" name="GroupTesting" finished-at="2020-03-31T05:18:03Z" duration-ms="19422">
     <groups>
       <group name="Regression">
         <method signature="phpTravels_hwB.validateConfirmPassword()[pri:6, instance:testNG.phpTravels_hwB@5d740a0f]" name="validateConfirmPassword" class="testNG.phpTravels_hwB"/>
@@ -27,68 +27,68 @@
         <method signature="phpTravels_hwB.validateUrl()[pri:9, instance:testNG.phpTravels_hwB@5d740a0f]" name="validateUrl" class="testNG.phpTravels_hwB"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2020-03-29T18:50:52Z" name="random" finished-at="2020-03-29T18:51:11Z" duration-ms="19013">
+    <test started-at="2020-03-31T05:17:44Z" name="random" finished-at="2020-03-31T05:18:03Z" duration-ms="19422">
       <class name="testNG.phpTravels_hwB">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:50:52Z" name="beforeTest" finished-at="2020-03-29T14:51:05Z" duration-ms="13102" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:44Z" name="beforeTest" finished-at="2020-03-31T01:17:57Z" duration-ms="13422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:05Z" name="beforeMethod" finished-at="2020-03-29T14:51:06Z" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:57Z" name="beforeMethod" finished-at="2020-03-31T01:17:57Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validatePassword()[pri:5, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:06Z" name="validatePassword" finished-at="2020-03-29T14:51:06Z" duration-ms="177" status="PASS">
+        <test-method signature="validatePassword()[pri:5, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:57Z" name="validatePassword" finished-at="2020-03-31T01:17:58Z" duration-ms="188" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Entering Abcd1234 in the Password Text Box]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatePassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:06Z" name="beforeMethod" finished-at="2020-03-29T14:51:06Z" duration-ms="500" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:58Z" name="beforeMethod" finished-at="2020-03-31T01:17:58Z" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateConfirmPassword()[pri:6, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:06Z" name="validateConfirmPassword" finished-at="2020-03-29T14:51:07Z" duration-ms="180" status="PASS">
+        <test-method signature="validateConfirmPassword()[pri:6, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:58Z" name="validateConfirmPassword" finished-at="2020-03-31T01:17:58Z" duration-ms="153" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Entering Abcd1234 in the Confirm Password Text Box]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateConfirmPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:07Z" name="beforeMethod" finished-at="2020-03-29T14:51:07Z" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:58Z" name="beforeMethod" finished-at="2020-03-31T01:17:59Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateSignUp()[pri:7, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:07Z" name="validateSignUp" finished-at="2020-03-29T14:51:07Z" duration-ms="50" status="PASS">
+        <test-method signature="validateSignUp()[pri:7, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:59Z" name="validateSignUp" finished-at="2020-03-31T01:17:59Z" duration-ms="55" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verifying Text of the WebElement signup]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateSignUp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:07Z" name="beforeMethod" finished-at="2020-03-29T14:51:08Z" duration-ms="500" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:59Z" name="beforeMethod" finished-at="2020-03-31T01:17:59Z" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateTitle()[pri:8, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:08Z" name="validateTitle" finished-at="2020-03-29T14:51:08Z" duration-ms="15" status="PASS">
+        <test-method signature="validateTitle()[pri:8, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:59Z" name="validateTitle" finished-at="2020-03-31T01:17:59Z" duration-ms="19" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verifying Title of the page]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:08Z" name="beforeMethod" finished-at="2020-03-29T14:51:08Z" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:17:59Z" name="beforeMethod" finished-at="2020-03-31T01:18:00Z" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateUrl()[pri:9, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:08Z" name="validateUrl" finished-at="2020-03-29T14:51:08Z" duration-ms="13" status="PASS">
+        <test-method signature="validateUrl()[pri:9, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:18:00Z" name="validateUrl" finished-at="2020-03-31T01:18:00Z" duration-ms="14" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verifying Url of the page]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateUrl -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-29T14:51:08Z" name="afterTest" finished-at="2020-03-29T14:51:11Z" duration-ms="2935" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.phpTravels_hwB@5d740a0f]" started-at="2020-03-31T01:18:00Z" name="afterTest" finished-at="2020-03-31T01:18:03Z" duration-ms="2999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
